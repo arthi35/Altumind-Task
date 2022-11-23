@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    
 }
 body{
     /* width: 100vw;
@@ -11,6 +12,7 @@ body{
     
     
 }
+
 a{
     text-decoration: none;
 }
@@ -98,6 +100,7 @@ cursor: pointer;
     position: relative;
     margin-left: 100px;
     cursor: pointer;
+    z-index: -1;
 }
 .card1 h1{
     position: absolute;
@@ -137,6 +140,7 @@ cursor: pointer;
     margin-top: 0px;
     margin-right: 200px;
     cursor: pointer;
+    z-index: -1;
 }
 /* .img2{
     display: flex;
@@ -373,6 +377,7 @@ gap: 10px;
     padding-top:60px;
     /* text-decoration-line: underline; */
     text-underline-offset: 20px;
+    
 }
 .card12{
 width: 700px;
